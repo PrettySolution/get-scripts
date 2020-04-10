@@ -1,0 +1,1 @@
+1. `curl -fsSL https://github.com/PrettySolution/get-scripts/releases/download/v0.0.1/get_docker-compose.sh | bash`
