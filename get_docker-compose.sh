@@ -2,7 +2,7 @@
 # Commit each time when making changes to THIS file !!!
 VERSION=1.25.5
 FILE=docker-compose-Linux-x86_64
-URL=https://github.com/docker/compose/releases/download/$VERSION/$FILE
+URL=https://github.com/docker/compose/releases/download/$VERSION
 BIN=docker-compose
 
 function install {
