@@ -1,8 +1,9 @@
 #!/bin/bash
 # Commit each time when making changes to THIS file !!!
-FILE=terragrunt_linux_amd64
-URL=https://github.com/gruntwork-io/terragrunt/releases/download/v0.23.5
-BIN=terragrunt
+VERSION=$1
+FILE=docker-compose-Linux-x86_64
+URL=https://github.com/docker/compose/releases/download/$VERSION
+BIN=docker-compose
 
 function install {
     if [ -z "$(which $BIN)" ]
